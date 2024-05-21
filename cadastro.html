@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form id="formCad" name="formCad" method="post" action="cadastro.php">
+        <h1>Cadastro</h1>
+        <div>
+        <label for="txt">Nome: </label>
+        <input type="text" placeholder="Seu nome" name="txnome" required>
+        </div>
+        <div>
+        <label for="txt">Email: </label>
+        <input type="text" placeholder="Seu email" name="email" required>
+        </div>
+        <div>
+        <label for="txt">Senha: </label>
+        <input type="password" placeholder="Sau senha" name="txsenha" required>
+        </div>
+        <div>
+        <label for="txt">Sexo: </label>
+        <input type="radio" name="txsexo" value="M" checked>
+        <input type="radio" name="txsexo" value="F">
+        </div>
+        <div>
+        <label for="txt">Data nascimento: </label>
+        <input type="date" name="datanans" required>
+        </div>
+
+        <input type="button" value="Voltar" onclick="location.href='menu.html'">
+        <input type="submit" value="Registrar">
+        <input type="button" value="Limpar" >
+
+    </form>
+   
+
+    
+</body>
+</html>

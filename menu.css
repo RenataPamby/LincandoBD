@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.cent{
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    background-color: rgb(228, 139, 6);
+    padding: 10px;
+    border-radius: 10px;
+    font-size:medium ;
+    font-weight: 500;
+    width: 500px;
+    height: 50px;
+    font-family:Verdana,  Tahoma, sans-serif ;
+}
