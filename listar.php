@@ -1,5 +1,5 @@
 <?php
-    echo "<link rel='stylesheet' type='text/css' href='crud.css'/>";
+    echo "<link rel='stylesheet' type='text/css' href='list.css'/>";
 	include 'conexao.php';
 	$lista=$cmd->query("select * from tbcrud");
 	$total_registros =$lista->rowCount();
