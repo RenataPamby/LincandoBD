@@ -1,7 +1,7 @@
 body{
     background-color: black;
     color: rgb(255, 255, 255);
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family:Verdana, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     height: 100vh;

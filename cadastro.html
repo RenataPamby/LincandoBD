@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastro.css"/>
     <title>Cadastro</title>
 </head>
 <body>
@@ -10,7 +11,7 @@
         <h1>Cadastro</h1>
         <div>
         <label for="txt">Nome: </label>
-        <input type="text" placeholder="Seu nome" name="txnome" required>
+        <input type="text" placeholder="Seu nome" name="txnome" id="txtnome" required>
         </div>
         <div>
         <label for="txt">Email: </label>
@@ -32,7 +33,7 @@
 
         <input type="button" value="Voltar" onclick="location.href='menu.html'">
         <input type="submit" value="Registrar">
-        <input type="button" value="Limpar" >
+        <input type="reset" value="Limpar" onclick="document.getElementById('txtnome').focus();">
 
     </form>
    
