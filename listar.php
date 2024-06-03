@@ -6,7 +6,7 @@
     if ($total_registros > 0)
         {
         echo "<table>";
-        echo "<tr> <th colspan=6> Dados Cadastrados </th> </tr>";
+        echo "<tr> <th colspan=6 class='maior'> Dados Cadastrados </th> </tr>";
         echo "<tr> 
                 <th> Código </th>
                 <th> Nome </th>

@@ -6,7 +6,7 @@ $total_registros = $pesq->rowCount();
 if ($total_registros > 0)
 {
 echo "<table>";
-echo "<tr> <th colspan=6> Dados Cadastrados </th> </tr>";
+echo "<tr> <th colspan=6 class='maior'> Dados Cadastrados </th> </tr>";
 echo "<tr> 
         <th> Código </th>
         <th> Nome </th>
@@ -35,10 +35,11 @@ while($linha=$pesq->fetch(PDO::FETCH_ASSOC))
 }
 echo "</table>";
 echo "<br/><br/>";
-echo "<a href='pesquisar.html'> voltar </a>";
+echo "<a href='pesquisar.html'  class='botaopesq'> voltar </a>";
 }
 else
 {
-    echo "<a href='pesquisar.html'> voltar </a>";}
-
+    echo "<a href='pesquisar.html' class='botaopesq'> voltar </a>";
+}
+echo "<link rel='stylesheet' type='text/css' href='pesq.css'/>";
 ?>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="cadastro.css"/>
+    <link rel="stylesheet" type="text/css" href="cadastroo.css"/>
     <title>Cadastro</title>
 </head>
 <body>
@@ -11,15 +11,15 @@
         <h1>Cadastro</h1>
         <div>
         <label for="txt">Nome: </label>
-        <input type="text" placeholder="Seu nome" name="txnome" id="txtnome" required>
+        <input class="caixa" type="text" placeholder="Seu nome" name="txnome" id="txtnome" required>
         </div>
         <div>
         <label for="txt">Email: </label>
-        <input type="text" placeholder="Seu email" name="email" required>
+        <input class="caixa" type="text" placeholder="Seu email" name="email" required>
         </div>
         <div>
         <label for="txt">Senha: </label>
-        <input type="password" placeholder="Sau senha" name="txsenha" required>
+        <input class="caixa" type="password" placeholder="Sau senha" name="txsenha" required>
         </div>
         <div class="radiosex">
         <label for="txt">Sexo: </label>
@@ -30,12 +30,12 @@
         </div>
         <div>
         <label for="txt">Data nascimento: </label>
-        <input type="date" name="datanans" required>
+        <input class="caixa" type="date" name="datanans" required>
         </div>
 
-        <input type="button" value="Voltar" onclick="location.href='menu.html'">
-        <input type="submit" value="Registrar">
-        <input type="reset" value="Limpar" onclick="document.getElementById('txtnome').focus();">
+        <input class="botao" type="button" value="Voltar" onclick="location.href='menu.html'">
+        <input class="botao" type="submit" value="Registrar">
+        <input class="botao" type="reset" value="Limpar" onclick="document.getElementById('txtnome').focus();">
       
 
     </form>
